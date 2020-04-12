@@ -1,0 +1,45 @@
+h2 {
+  text-align: left;
+}
+
+#header {
+  width: 605px;
+  margin: 5px 0;
+}
+
+#albumImage {
+  width: 610px;
+  margin-bottom: 5px;
+}
+
+#albumImage img {
+  display: block;
+  margin: auto;
+}
+
+#thumbWrapper {
+  width: 610px;
+  overflow: auto;
+}
+
+#thumbList {
+  white-space: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#thumbList li {
+  display: inline;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+#thumbList li:first-child,
+#thumbList li:last-child {
+  padding: 0;
+}
+
+#thumbList li:hover {
+  opacity: .5;
+}
